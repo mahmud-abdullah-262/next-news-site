@@ -10,7 +10,7 @@ const Header = () => {
      <Image src={logo} width={300} height={150} alt='logo' className='mx-auto'></Image>
      <p className='text-md text-gray-700'>Journalism Without Fear or Favour</p>
      <p>{format(new Date(), "EEEE, LLLL dd, yyyy")}</p>
-     <BreakingNews></BreakingNews>
+     
     </div>
   );
 };
